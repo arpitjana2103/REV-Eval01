@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee</title>
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+  <nav>
+    <a href="/index.html">Login Page</a>
+    <a href="/employee.html">Employee Page</a>
+  </nav>
+  <div>
+    <form class="emp-filter-form">
+      <div>
+        <span>page</span>
+        <input class="page" type="text" value="1">
+      </div>
+      <div>
+        <select class="salary">
+          <option value="asc">Salary Low to High</option>
+          <option value="desc">Salary Hi to Low</option>
+        </select>
+      </div>
+      <div>
+        <select class="department">
+          <option value="">All Department</option>
+          <option value="engineering">Engineering</option>
+          <option value="marketing">Marketing</option>
+          <option value="operations">Operations</option>
+          <option value="finance">Finance</option>
+          <option value="hr">HR</option>
+        </select>
+      </div>
+      <div>
+        <select class="gender">
+          <option value="">All Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Fe-Male</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+      <button>Submit</button>
+    </form>
+  </div>
+  <div class="employee-container">
+    <!-- <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
+      <p>Name : Name</p>
+      <p>Gender : Gender</p>
+      <p>Department : Department</p>
+      <p>Salary : Salary</p>
+
+    </div> -->
+  </div>
+  <script src="/JS/employee.js"></script>
+</body>
+
+</html>
